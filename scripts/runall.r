@@ -2,6 +2,18 @@
 # 
 
 
+
+# /----------------------------------------------------------------------------#
+#/        SET WD                                                         -------
+library(here); setwd(here()) # setwd to the location of the project
+
+library(tidyverse)
+library(dplyr)
+library(sf)
+
+
+source('themes.r')
+
 # Unzip data to memory =========================================================
 
 # Coastal watersheds HUC8 ------------------------------------------------------
